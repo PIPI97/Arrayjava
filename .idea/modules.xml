@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Array.iml" filepath="$PROJECT_DIR$/.idea/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/celsiusandfahrenheit/celsiusandfahrenheit.iml" filepath="$PROJECT_DIR$/celsiusandfahrenheit/celsiusandfahrenheit.iml" />
       <module fileurl="file://$PROJECT_DIR$/findvalueinarray/findvalueinarray.iml" filepath="$PROJECT_DIR$/findvalueinarray/findvalueinarray.iml" />
       <module fileurl="file://$PROJECT_DIR$/maxnumber/maxnumber.iml" filepath="$PROJECT_DIR$/maxnumber/maxnumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/reverse/test1.iml" filepath="$PROJECT_DIR$/reverse/test1.iml" />

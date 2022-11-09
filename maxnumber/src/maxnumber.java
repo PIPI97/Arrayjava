@@ -9,7 +9,7 @@ public class maxnumber {
             System.out.println("Size : ");
             size = sc.nextInt();
             if (size > 20) {
-                System.out.println(size + " is too large; enter Size < 20");
+                System.out.println(size +" is too large; enter Size < 20");
             }
         } while (size > 20);
         numarray = new int[size];
