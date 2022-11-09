@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/maxnumber/maxnumber.iml" filepath="$PROJECT_DIR$/maxnumber/maxnumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/minnumber/minnumber.iml" filepath="$PROJECT_DIR$/minnumber/minnumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/reverse/test1.iml" filepath="$PROJECT_DIR$/reverse/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twodimension_array/twodimension_array.iml" filepath="$PROJECT_DIR$/twodimension_array/twodimension_array.iml" />
     </modules>
   </component>
 </project>
