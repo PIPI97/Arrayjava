@@ -21,13 +21,15 @@ public class minnumber {
             for (int n : numarray) {
                 System.out.print(n + "\t");
             }
-            int min = numarray[0];
-            for (int i = 1; i < numarray.length; i++) {
-                if (numarray[i] < min) {
-                    min = numarray[i];
+            System.out.println("\nMin number is " + minnumber(numarray));
+        }
+        public static int minnumber (int array[]){
+            int min = array[0];
+            for (int i = 1; i < array.length; i++) {
+                if (array[i] < min) {
+                    min = array[i];
                 }
-            }
-            System.out.println("min number is " + min);
+            } return min;
         }
     }
 
