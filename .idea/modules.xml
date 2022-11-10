@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Array.iml" filepath="$PROJECT_DIR$/.idea/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fan/Fan.iml" filepath="$PROJECT_DIR$/Fan/Fan.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuadraticEquation/QuadraticEquation.iml" filepath="$PROJECT_DIR$/QuadraticEquation/QuadraticEquation.iml" />
       <module fileurl="file://$PROJECT_DIR$/classandobj/Rectangle.iml" filepath="$PROJECT_DIR$/classandobj/Rectangle.iml" />
       <module fileurl="file://$PROJECT_DIR$/addvaluearray/addvaluearray.iml" filepath="$PROJECT_DIR$/addvaluearray/addvaluearray.iml" />
