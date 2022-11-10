@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/sumcolumn/sumcolumn.iml" filepath="$PROJECT_DIR$/sumcolumn/sumcolumn.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumcross/sumcross.iml" filepath="$PROJECT_DIR$/sumcross/sumcross.iml" />
       <module fileurl="file://$PROJECT_DIR$/reverse/test1.iml" filepath="$PROJECT_DIR$/reverse/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timestop/timestop.iml" filepath="$PROJECT_DIR$/timestop/timestop.iml" />
       <module fileurl="file://$PROJECT_DIR$/twodimension_array/twodimension_array.iml" filepath="$PROJECT_DIR$/twodimension_array/twodimension_array.iml" />
     </modules>
   </component>
