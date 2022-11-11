@@ -7,7 +7,7 @@ public class fan {
     public fan() {
         this.speed = 1;
         this.on_off = false;
-        this.radius= 5;
+        this.radius = 5;
         this.color = "blue";
     }
 
