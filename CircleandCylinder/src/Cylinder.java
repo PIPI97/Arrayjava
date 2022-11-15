@@ -20,15 +20,4 @@ public class Cylinder extends Circle {
     public String toString() {
         return super.toString() + " height: " + this.height + ", Volume: " + getVolume();
     }
-
-    public static void main(String[] args) {
-
-        Circle Circle1 = new Circle();
-//        Circle1.setRadius(3);
-//        Circle1.setColor("yellow");
-
-        System.out.println(Circle1.toString());
-        Cylinder Cylinder1 = new Cylinder(3, 6, "blue");
-        System.out.println(Cylinder1);
-    }
 }
