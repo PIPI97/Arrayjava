@@ -44,7 +44,7 @@ public class Triagle extends Shape {
     }
 
     public double getArea() {
-        return Math.sqrt(getPerimeter() * (getPerimeter() - this.side1) * (getPerimeter() - this.side2) * (getPerimeter() - this.side3));
+        return Math.sqrt((getPerimeter()/2) * ((getPerimeter()/2) - this.side1) * ((getPerimeter()/2) - this.side2) * ((getPerimeter()/2) - this.side3));
     }
 
     @Override
