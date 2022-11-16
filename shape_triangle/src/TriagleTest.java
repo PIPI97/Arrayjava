@@ -11,6 +11,7 @@ public class TriagleTest {
         double side3 = sc.nextDouble();
         System.out.println("Enter color: ");
         String color = sc.next();
+
 //        Triagle triagle1= new Triagle();
 //        System.out.println(triagle1);
         Triagle triagle2= new Triagle(side1,side2,side3,color);

@@ -44,18 +44,30 @@ public class Triagle extends Shape {
     }
 
     public double getArea() {
-        return Math.sqrt((getPerimeter()/2) * ((getPerimeter()/2) - this.side1) * ((getPerimeter()/2) - this.side2) * ((getPerimeter()/2) - this.side3));
+        double per2 = getPerimeter() / 2;
+        return Math.sqrt(per2 * (per2 - this.side1) * (per2 - this.side2) * (per2 - this.side3));
+    }
+
+    public boolean checkTriangle() {
+
+        if (    this.side1 + this.side2 > this.side3 &&
+                this.side2 + this.side3 > this.side1 &&
+                this.side1 + this.side3 > this.side2) {
+            return true;
+        } else return false;
     }
 
     @Override
     public String toString() {
-        return super.toString()+
-               " Triagle{" +
-                      "side1=" + side1 +
-                    ", side2=" + side2 +
-                    ", side3=" + side3 +
-                    ", Area=" + getArea()+
-                    ", Perimeter" +getPerimeter()+
-                    '}';
+        return checkTriangle() ?
+                super.toString() +
+                        " Triangle{" +
+                        "side1=" + side1 +
+                        ", side2=" + side2 +
+                        ", side3=" + side3 +
+                        ", Area=" + getArea() +
+                        ", Perimeter" + getPerimeter() +
+                        '}' :
+                "this is not triangle";
     }
 }
