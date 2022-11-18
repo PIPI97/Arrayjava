@@ -1,4 +1,4 @@
-public class Square extends Rectangle{
+public class Square extends Rectangle implements Colorable{
     Square(){};
     public Square(double side) {
         super(side,side);
@@ -34,4 +34,8 @@ public class Square extends Rectangle{
                 + super.toString();
     }
 
+    @Override
+    public String howToColor() {
+        return  "Color all four sides";
+    };
 }
