@@ -23,6 +23,12 @@ public class MyList<E> {
         }
     }
 
+    private void checkIndex(int index) {
+        if (index < 0 || index >= size)
+            throw new IndexOutOfBoundsException
+                    ("index " + index + " out of bounds");
+    }
+
 
     public void add(int index, E e) {
         ensureCapacity();
@@ -38,12 +44,26 @@ public class MyList<E> {
         size++;
     }
 
-    public void remove(int index) {
-        for (int i = index; i <size; i++) {
-                elements[i] = elements[i+1];
+    public E remove(int index) {
+        checkIndex(index);
+        E temp = (E) elements[index];
+        for (int i = index; i < size; i++) {
+            elements[i] = elements[i + 1];
         }
-        size --;
+        size--;
+        return temp;
     }
+
+    public void clear() {
+        elements = new Object[0];
+        size = 0;
+    }
+
+    public E get(int i) {
+        checkIndex(i);
+        return (E) elements[i];
+    }
+
 
     @Override
     public String toString() {
@@ -51,19 +71,5 @@ public class MyList<E> {
                 "size=" + size +
                 ", elements=" + Arrays.toString(elements) +
                 '}';
-    }
-
-    public static void main(String[] args) {
-        MyList<Integer> list = new MyList<>(7);
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
-        list.add(6);
-//        list.add(2, 99);
-//        list.remove(3);
-        System.out.println(list);
-
     }
 }
