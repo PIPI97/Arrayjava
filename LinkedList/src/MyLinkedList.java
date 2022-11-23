@@ -118,6 +118,23 @@ public class MyLinkedList {
         }
         return headNode;
     }
+
+    public static int size(Node headNode) {
+        Node temp = headNode;
+        int count = 0;
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+        return count;
+    }
+
+    public static Node newlink(int... values) {
+        Node newNode = new Node(values[0]);
+        for (int i=1;i< values.length;i++)
+        newNode = addToTail(newNode, values[i]);
+        return newNode;
+    }
 }
 
 
