@@ -64,6 +64,18 @@ public class MyList<E> {
         return (E) elements[i];
     }
 
+//    public void ensureCapacity(int minCapacity) {
+//
+//        if (minCapacity > elements.length) {
+//
+//            int newCapacity = Math.max(elements.length * 2, minCapacity);
+//            E elementData = (E) new Object[newCapacity];
+//            System.arraycopy(elements, 0, elementData, 0, size);
+//
+//        }
+//
+//    }
+
 
     @Override
     public String toString() {

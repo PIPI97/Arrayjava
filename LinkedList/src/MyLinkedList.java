@@ -1,53 +1,123 @@
 public class MyLinkedList {
-    private  Node head;
-    private  int numNodes;
 
-    public MyLinkedList(Object data) {
-        head = new Node(data);
-    }
 
-    private class Node {
-        private Node next;
-        private Object data;
+    public static class Node {
+        int value;
+        Node next;
 
-        public Node(Object data) {
-            this.data = data;
+        Node(int value) {
+            this.value = value;
         }
 
-        public Object getData() {
-            return this.data;
-        }
     }
-    public void add(int index, Object data) {
-        Node temp = head;
-        Node holder;
 
-        for(int i=0; i < index-1 && temp.next != null; i++) {
-            temp = temp.next;
+    public static void printLinkedList(Node head) {
+        if (head == null) {
+            System.out.print("List is empty!");
+        } else {
+            Node temp = head;
+            while (temp != null) {
+                System.out.print(temp.value);
+                temp = temp.next;
+                if (temp != null) System.out.print("->");
+                else System.out.println();
+            }
         }
-        holder = temp.next;
-        temp.next = new Node(data);
-        temp.next.next = holder;
-        numNodes++;
+
     }
-    public void addFirst(Object data) {
-        Node temp = head;
-        head = new Node(data);
-        head.next = temp;
-        numNodes++;
-    }
-    public Node get(int index){
-        Node temp=head;
-        for(int i=0; i<index; i++) {
-            temp = temp.next;
+
+    public static Node addToHead(Node headNode, int value) {
+        Node newNode = new Node(value);
+        if (headNode != null) {
+            newNode.next = headNode;
         }
-        return temp;
+        return newNode;
     }
-    public void printList() {
-        Node temp = head;
-        while(temp != null) {
-            System.out.println(temp.data);
-            temp = temp.next;
+
+    public static Node addToTail(Node headNode, int value) {
+        Node newNode = new Node(value);
+        if (headNode == null) return newNode;
+        else {
+            Node temp = headNode;
+            while (temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = newNode;
+            return headNode;
         }
+    }
+
+    public static Node add(Node headNode, int index, int value) {
+        Node newNode = new Node(value);
+        if (index == 0) return addToHead(headNode, value);
+        else {
+            Node temp = headNode;
+            int count = 0;
+            while (temp != null) {
+                count++;
+                if (count == index) {
+                    newNode.next = temp.next;
+                    temp.next = newNode;
+                    break;
+                }
+                temp = temp.next;
+            }
+            if (count < index) System.out.println("unable to add to LinkedList!");
+        }
+        return headNode;
+    }
+
+    public static Node removeAtHead(Node headNode) {
+        if (headNode != null) return headNode.next;
+        return headNode;
+    }
+
+    public static Node removeAtTail(Node headNode) {
+        if (headNode == null) return null;
+
+        Node lastNode = headNode;
+        Node preNode = null;
+
+        while (lastNode.next != null) {
+            preNode = lastNode;
+            lastNode = lastNode.next;
+        }
+        if (preNode == null) return null;
+        else {
+            preNode.next = lastNode.next;
+        }
+        return headNode;
+    }
+
+    public static Node removeAt(Node headNode, int index) {
+        if (headNode == null) return null;
+        if (index == 0) return removeAtHead(headNode);
+        Node lastNode = headNode;
+        Node preNode = null;
+        int count = 0;
+        while (lastNode.next != null) {
+            count++;
+            preNode = lastNode;
+            lastNode = lastNode.next;
+            if (count == index) {
+                preNode.next = lastNode.next;
+            }
+        }
+        if (count < index) System.out.println("index is higher than length");
+        if (preNode == null) return null;
+        return headNode;
+    }
+
+    public static Node reverse(Node headNode) {
+        Node cur = headNode;
+        while (cur != null && cur.next != null) {
+            Node curnext = cur.next;
+            cur.next = curnext.next;
+            curnext.next = headNode;
+            headNode = curnext;
+        }
+        return headNode;
     }
 }
+
+

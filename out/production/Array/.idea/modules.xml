@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Access modifier/Access modifier.iml" filepath="$PROJECT_DIR$/Access modifier/Access modifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Array.iml" filepath="$PROJECT_DIR$/.idea/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircleandCylinder/CircleandCylinder.iml" filepath="$PROJECT_DIR$/CircleandCylinder/CircleandCylinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Comparable/Comparable.iml" filepath="$PROJECT_DIR$/Comparable/Comparable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Comparator2/Comparator2.iml" filepath="$PROJECT_DIR$/Comparator2/Comparator2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fan/Fan.iml" filepath="$PROJECT_DIR$/Fan/Fan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyArrayList/MyArrayList.iml" filepath="$PROJECT_DIR$/MyArrayList/MyArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Point2DAnd3D/Point2DAnd3D.iml" filepath="$PROJECT_DIR$/Point2DAnd3D/Point2DAnd3D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Point_and_MoveablePoint/Point_and_MoveablePoint.iml" filepath="$PROJECT_DIR$/Point_and_MoveablePoint/Point_and_MoveablePoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuadraticEquation/QuadraticEquation.iml" filepath="$PROJECT_DIR$/QuadraticEquation/QuadraticEquation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classandobj/Rectangle.iml" filepath="$PROJECT_DIR$/classandobj/Rectangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Resizeable/Resizeable.iml" filepath="$PROJECT_DIR$/Resizeable/Resizeable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Static Method/Static Method.iml" filepath="$PROJECT_DIR$/Static Method/Static Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuadraticEquation/Test/Test.iml" filepath="$PROJECT_DIR$/QuadraticEquation/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addvaluearray/addvaluearray.iml" filepath="$PROJECT_DIR$/addvaluearray/addvaluearray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animal/animal.iml" filepath="$PROJECT_DIR$/animal/animal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/car/car.iml" filepath="$PROJECT_DIR$/car/car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/celsiusandfahrenheit/celsiusandfahrenheit.iml" filepath="$PROJECT_DIR$/celsiusandfahrenheit/celsiusandfahrenheit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkstring/checkstring.iml" filepath="$PROJECT_DIR$/checkstring/checkstring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle opp/circle opp.iml" filepath="$PROJECT_DIR$/circle opp/circle opp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concat/concat.iml" filepath="$PROJECT_DIR$/concat/concat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deletevaluearray/deletevaluearray.iml" filepath="$PROJECT_DIR$/deletevaluearray/deletevaluearray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/findvalueinarray/findvalueinarray.iml" filepath="$PROJECT_DIR$/findvalueinarray/findvalueinarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maxnumber/maxnumber.iml" filepath="$PROJECT_DIR$/maxnumber/maxnumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minnumber/minnumber.iml" filepath="$PROJECT_DIR$/minnumber/minnumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/passed studens/passed studens.iml" filepath="$PROJECT_DIR$/passed studens/passed studens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shape/shape.iml" filepath="$PROJECT_DIR$/shape/shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shape_triangle/shape_triangle.iml" filepath="$PROJECT_DIR$/shape_triangle/shape_triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplelist/simplelist.iml" filepath="$PROJECT_DIR$/simplelist/simplelist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/static property/static property.iml" filepath="$PROJECT_DIR$/static property/static property.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumcolumn/sumcolumn.iml" filepath="$PROJECT_DIR$/sumcolumn/sumcolumn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumcross/sumcross.iml" filepath="$PROJECT_DIR$/sumcross/sumcross.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse/test1.iml" filepath="$PROJECT_DIR$/reverse/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timestop/timestop.iml" filepath="$PROJECT_DIR$/timestop/timestop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twodimension_array/twodimension_array.iml" filepath="$PROJECT_DIR$/twodimension_array/twodimension_array.iml" />
+    </modules>
+  </component>
+</project>

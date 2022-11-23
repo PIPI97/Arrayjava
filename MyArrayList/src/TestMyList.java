@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class TestMyList {
     public static void main(String[] args) {
         MyList<Integer> list = new MyList<>(7);
@@ -12,6 +14,5 @@ public class TestMyList {
 //        list.clear();
 //        System.out.println(list.get(3));
         System.out.println(list);
-
     }
 }
