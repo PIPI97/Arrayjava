@@ -21,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/QuadraticEquation/Test/Test.iml" filepath="$PROJECT_DIR$/QuadraticEquation/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/addvaluearray/addvaluearray.iml" filepath="$PROJECT_DIR$/addvaluearray/addvaluearray.iml" />
       <module fileurl="file://$PROJECT_DIR$/animal/animal.iml" filepath="$PROJECT_DIR$/animal/animal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayreverse/arrayreverse.iml" filepath="$PROJECT_DIR$/arrayreverse/arrayreverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircleandCylinder/arrayreversestack/arrayreversestack.iml" filepath="$PROJECT_DIR$/CircleandCylinder/arrayreversestack/arrayreversestack.iml" />
       <module fileurl="file://$PROJECT_DIR$/car/car.iml" filepath="$PROJECT_DIR$/car/car.iml" />
       <module fileurl="file://$PROJECT_DIR$/celsiusandfahrenheit/celsiusandfahrenheit.iml" filepath="$PROJECT_DIR$/celsiusandfahrenheit/celsiusandfahrenheit.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkstring/checkstring.iml" filepath="$PROJECT_DIR$/checkstring/checkstring.iml" />
