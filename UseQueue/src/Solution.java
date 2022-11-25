@@ -69,6 +69,5 @@ public class Solution {
         enQueue(q, 9);
         enQueue(q, 20);
         displayQueue(q);
-
 }
 }
